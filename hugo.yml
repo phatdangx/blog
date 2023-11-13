@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Phat's Notes
-  description: "This is my personal blog, where I share my interests"
+  description: "This is my sandbox, where I share my interests"
   keywords: [Blog, Portfolio, PaperMod]
   author: phatdang
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -40,15 +40,16 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  favicon: false
 
   assets:
-    disableHLJS: true # to disable highlight.js
+    # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "assets/favicon.ico"
-    favicon16x16: ""
-    favicon32x32: ""
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: ""
+    favicon16x16:  ""
+    favicon32x32:  ""
+    apple_touch_icon:  ""
+    safari_pinned_tab:  ""
 
   label:
     text: "Phat Dang"
@@ -59,7 +60,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: Phat Dang
-    subtitle: "This is my personal blog, where I share my interests"
+    subtitle: "This is my sandbox, where I share my interests"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
@@ -73,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "Welcome to my personal blog, a vibrant mix of my thoughts, experiences, and passions. Here, I share stories from my life, insights I've gathered along the way, and my favorite hobbies and interests. Join me on this journey of exploration and discovery"
+    Content: "Welcome to my sandbox, a vibrant mix of my thoughts, experiences, and passions. Here, I share stories from my life, insights I've gathered along the way, and my favorite hobbies and interests. Join me on this journey of exploration and discovery"
 
   socialIcons:
     - name: linkedin
