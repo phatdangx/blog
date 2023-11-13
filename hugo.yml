@@ -24,6 +24,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  favicon: false
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -44,9 +45,9 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/assets/favicon16.png"
-    favicon16x16: "/assets/favicon16.png"
-    favicon32x32: "/assets/favicon16.png"
+    favicon: ""
+    favicon16x16: ""
+    favicon32x32: ""
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
