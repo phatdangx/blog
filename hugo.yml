@@ -1,4 +1,4 @@
-baseURL: "https://phatdangx.github.io/notes/"
+baseURL: "https://phatdangx.github.io/blog/"
 title: Phat Dang
 paginate: 5
 theme: PaperMod
@@ -78,15 +78,15 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/dangtoanphat/"
-    - name: twitter
-      url: "https://twitter.com/phatdangx"
     - name: github
       url: "https://github.com/phatdangx"
+    - name: twitter
+      url: "https://twitter.com/phatdangx"
     
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
 
   cover:
     hidden: true # hide everywhere but not in structured data
