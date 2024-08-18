@@ -80,8 +80,8 @@ params:
       url: "https://www.linkedin.com/in/dangtoanphat/"
     - name: github
       url: "https://github.com/phatdangx"
-    - name: twitter
-      url: "https://twitter.com/phatdangx"
+    - name: telegram
+      url: "https://t.me/bunboholic"
     
 
   analytics:
