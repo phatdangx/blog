@@ -57,7 +57,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: false
     title: Phat Dang
     subtitle: "Welcome to my blog. Here, I share what I learn or simply my thoughts"
     imageUrl: "<img location>"
@@ -73,11 +73,10 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "Welcome to my blog. Here, I share what I learn or simply my thoughts"
+    Content: >
+      Welcome to my blog. Here, I share what I learn or simply my thoughts
 
   socialIcons:
-    - name: linkedin
-      url: "https://www.linkedin.com/in/dangtoanphat/"
     - name: github
       url: "https://github.com/phatdangx"
     - name: telegram
@@ -105,9 +104,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 10
     - identifier: tags
       name: Tags
@@ -124,3 +123,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+# Create a post by template command: hugo new --kind post posts/test4.md
+# Start local server: hugo server
