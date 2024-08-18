@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "Welcome to my sandbox, a vibrant mix of my thoughts, experiences, and passions. Here, I share stories from my life, insights I've gathered along the way, and my favorite hobbies and interests. Join me on this journey of exploration and discovery"
+    Content: "Welcome to my blog. Here, I share what I learn or simply my thoughts"
 
   socialIcons:
     - name: linkedin
